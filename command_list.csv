@@ -1,0 +1,77 @@
+    1  git config --list
+    2  git config --global user.name "Rostm"
+    3  git config --global user.email rostmoshak@gmail.com
+    4  git config ---list
+    5  git config --list
+    6  git init
+    7  git --list
+    8  git config --list
+    9  git init
+   10  git status
+   11  git add file1.txt
+   12  git status
+   13  git commit -m 'Перша версія проекту'
+   14  git status
+   15  git add *.txt
+   16  git commit -m 'Друга версія проекту'
+   17  git log
+   18  sudo npm install -g --unsafe-perm node-red
+   19  npm i node-red
+   20  bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+   21  npm install -g --unsafe-perm node-red
+   22  node-red
+   23  node-red-stop
+   24  node-red
+   25  node-red-start
+   26  cd C:\Users\rostm\OneDrive\Рабочий стол\cloneGIT
+   27  cd cloneGIT
+   28  cd C:\Users\rostm\OneDrive\Документи\cloneGIT
+   29  cd Документи\cloneGIT
+   30  cd Documents/cloneGIT
+   31  cd Документи
+   32  зцв
+   33  pwd
+   34  cd c/Users/rostm/OneDrive/Документи/cloneGIT
+   35  cd c/Users/rostm/OneDrive
+   36  cd c/Users/rostm/OneDrive/Documents/cloneGIT
+   37  cd c\Users\rostm\OneDrive\Documents\cloneGIT
+   38  cd c\Users\rostm\cloneGIT
+   39  cd C:\Users\rostm\cloneGIT
+   40  cd /c/Users/rostm/cloneGIT
+   41  pwd
+   42  -c && rm ~/.bash_history
+   43  git config --global user.name
+   44  git config --global user.email
+   45  pwd
+   46  git clone https://github.com/vvndl/HW_10
+   47  cd /c/Users/rostm/cloneGIT/HW_10
+   48  touch text_ignore.txt
+   49  echo "text_ignore.txt" >> .gitignore
+   50  cat .gitignore
+   51  nano .gitignore
+   52  vim .gitignore
+   53  cat .gitignore
+   54  cat .gitignore
+   55  git status
+   56  git add
+   57  git add .
+   58  git status
+   59  git commit -m "Додано рядок text_ignore.txt до .gitignore"
+   60  touch main_test.txt
+   61  git add .
+   62  git commit -m "Додано новий файл main_test.txt"
+   63  git checkout -b develop
+   64  git branch
+   65  touch develop_test.txt
+   66  git add .
+   67  git commit -m "Додано новий файл develop_test.txt"
+   68  echo "just a small change" > develop_test.txt
+   69  cat develop_test.txt
+   70  git status
+   71  git add .
+   72  git commit -m "Додано develop_test.txt з тестовим текстом"
+   73  git checkout main
+   74  git branch
+   75  git merge develop
+   76  git log
+   77  history > command_list.csv
